@@ -53,7 +53,7 @@ def m_dict(word):
                 } 	
     dict = ""
     if word in meme_dict:
-        word += meme_dict[kata]
+        word += meme_dict[word]
     else:
         word += "Word not found"
-    return kamus
+    return dict
