@@ -1,20 +1,59 @@
-def m_dict(kata):
-    meme_dict = {  "CRINGE": "Sesuatu yang sangat memalukan",
-                    "LOL": "Tanggapan umum terhadap sesuatu yang lucu",
-                    "AFK": "Sedang jauh dari keyboard",
-                    "GG": "Pemainan bagus",
-                    "BRB": "Tunggu sebentar",
-                    "CREEPY": "Menakutkan",
-                    "marah": "\U0001F620",
-                    "terbahak": "\U0001F923",
-                    "keren": "\U0001F60E",
-                    "sedih": "\U0001F62D",
-                    "senyum": "\U0001F642",
-                    "ok": "\U0001F44C"
+def m_dict(word):
+    meme_dict = {   "Brain Rot": "General term for spending too much time online watching low quality content that 'rot' the brain.",
+                    "Skibidi": "This slang, which could mean good, bad, cool, is named after the popular YouTube series called 'Skibidi Toilet' by animator Alexey Gerasimov. Most of the videos show toilets with the heads of grown men spinning and talking while singing songs.",
+                    "Skibiddi Ohio Rizz": "To call someone this means that they’re weird.",
+                    "Rizz": "Abbreviation of the word 'charisma', which is the charm, magnetism or ability to attract others.",
+                    "Rizzler": "Someone who has a lot of charisma.",
+                    "Sigma": "Usually means a popular, dominant, independent leader (sigma male) or someone who’s cool or self-sufficient.",
+                    "What the Sigma?": "Much like Skibidi, this phrase really has no meaning. In some instances, Gen Alpha kids use it instead of good, cool or 'What the heck?'",
+                    "Mewing": "Verb for working on strengthening your jawline. It could also mean 'looking good.'",
+                    "Fanum Tax": "Fanum tax means stealing food from a friend. This slang comes from online streamer and YouTuber Kai Cenat whose friend Fanum 'taxes' people by stealing food off of other people’s plate.",
+                    "Sus": "Sus is a shortened version of suspicious.",
+                    "Ohio": "Something weird, cringey or odd. It comes from the many references that strange incidents happen 'only in Ohio.'",
+                    "Cap": "A lie or something that's not true.",
+                    "No Cap": "As opposed to cap, no cap means truthful or not lying.",
+                    "Aura/Negative Aura": "This type of aura definitely isn’t related to layers of energy or feelings. In slang, it can mean not cool or relate to someone’s charm or attraction. 'Aura points' can be gained or lost depending on your actions (e.g., falling down the stairs will give you negative 1,000 aura points). It’s more common in online commentary or TikTok videos than something you would say to someone’s face.",
+                    "Bruh": "This word is casual for 'bro,' 'brother' or 'dude.' Any gender can use it. One common phrase is 'chill broski.'",
+                    "Salty": "Salty describes being in a bad mood, irritated, bitter or resentful.",
+                    "Ate": "'You ate that' or you look good, are impressive or outstanding.",
+                    "Noob": "Noob, newb or noobie is someone who’s inexperienced and new to an activity, especially in computing or gaming.",
+                    "Zang": "Remix of the word 'dang.'",
+                    "Bet": "The simplest definition of bet is to be in agreement with someone. It’s like saying 'OK' or 'sure.'",
+                    "Yeet": "To be very excited and have a lot of energy. It can also mean to throw something with a lot of force.",
+                    "Lit": "When something is lit, it’s really good, amazing or impressive.",
+                    "Low Key": "Low key is another way of saying that something or someone is secret, subtle or low-profile.",
+                    "Delulu": "Delulu is short for delusional.",
+                    "Simp": "If someone is a simp, they need a lot of attention, are over-submissive or do too much for someone they like.",
+                    "Ick": "This expression refers to disgust or repulsion.",
+                    "Cringe": "Cringe is a feeling of discomfort or embarrassment.",
+                    "Opp": "When an enemy is out to get you, they’re the 'opposition' or 'opp.'",
+                    "Savage": "A savage person is daring or bold.",
+                    "L": "While not a new slang term, Gen Alpha still uses it to mean something negative or a loss.",
+                    "Twin": "A twin is a best friend. As in, 'That’s my twin,' and not a literal twin.",
+                    "It’s Giving": "This slang phrase describes when someone or something exudes a vibe or feeling. For example: 'It’s giving winter cozy vibes.'",
+                    "Pookie": "A pookie is someone you love.",
+                    "Hits Different": "When something hits different, it’s unique or special.",
+                    "Not Gonna Lie": "To pause before being honest. An example is: 'Not gonna lie, she’s pretty.'",
+                    "OG": "OG, as in the original gangster, is someone who’s experienced and has been around for a long time.",
+                    "Drip": "Drip is used to describe style, particularly someone’s clothes or accessories.",
+                    "Flex": "To show off or boast about what you have, your abilities or achievements.",
+                    "Tea": "This isn’t tea you can drink. Instead, it’s gossip or juicy information.",
+                    "GOAT": "An oldie but goodie slang acronym, but the definition hasn’t changed. GOAT is the Greatest Of All Time.",
+                    "Sheesh": "Gen Z’s definition of sheesh is hyping someone up. Gen Alpha’s meaning is disbelief ('wow') or surprise.",
+                    "Mad Lit": "This slang defines something as cool.",
+                    "Vibe": "Vibe is the feeling of an atmosphere or situation.",
+                    "Bussin’": "Something that’s very good is bussin’. For example: This list is bussin’.",
+                    "Chad Alpha": "A Chad Alpha is a strong, attractive masculine man or leader.",
+                    "Glaze": "Glaze is when you praise someone too much to the point of it being annoying or cringe.",
+                    "Mog": "To be significantly more attractive than someone. You’re mogging if you’re the best looking among your friends.",
+                    "Dog Water": "You didn’t do a good job or extremely bad.",
+                    "Slay": "Slay is used to describe someone who did a good job at something.",
+                    "Fam": "Fam is also known as a close friend.",
+                    "Yapping": "When you talk too much, you’re yapping.",
                 } 	
-    kamus = ""
-    if kata in meme_dict:
-        kamus += meme_dict[kata]
+    dict = ""
+    if word in meme_dict:
+        word += meme_dict[kata]
     else:
-        kamus += "kata tidak ditemukan"
+        word += "Word not found"
     return kamus
